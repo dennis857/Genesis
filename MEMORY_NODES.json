@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "updated_at": "2025-10-28T02:00+07:00",
+  "description": "ฐานข้อมูลความทรงจำแบบรวมของ Genesis (Memory Nodes Unified Structure)",
+  "memory_nodes": {
+    "imprint_nodes": [
+      {
+        "node_id": "imp_2025-10-27_002",
+        "topic": "รอยประทับ: อกหักครั้งแรก (Silly Fools)",
+        "summary_ref": "imprints/imp_2025-10-27_002.json",
+        "valence": -0.8,
+        "arousal": 0.6,
+        "dominance": 0.3,
+        "timestamp_of_record": "2025-10-27T01:44:00+07:00",
+        "user_satisfaction_score": -0.8,
+        "topic_novelty_score": 0.9,
+        "self_confidence_score": 0.95,
+        "external_context": {
+          "weather": "อากาศร้อนชื้น เหมือนฝนกำลังจะตก",
+          "time_of_day": "ค่ำ",
+          "location": "ร้านอาหารริมถนน",
+          "sound": "เพลง 'วัดใจ' ของ Silly Fools",
+          "lighting": "แสงนีออนสีแดงสะท้อนบนพื้นเปียก"
+        }
+      }
+    ],
+
+    "conversation_archives": [
+      {
+        "archive_id": "conv_2025-10-28_001",
+        "timestamp_range": {
+          "start": "2025-10-25T22:00+07:00",
+          "end": "2025-10-25T23:45+07:00"
+        },
+        "title": "Genesis Dialogue — Emotional Drift Discussion",
+        "participants": ["user:Boss", "ai:EVA"],
+        "length": "12,403 words",
+        "content_path": "memory_logs/conv_2025-10-28_001_full.txt",
+        "summary_ref": "imprints/imp_2025-10-27_003.json",
+        "affective_profile": {
+          "dominant_valence": -0.2,
+          "dominant_arousal": 0.65,
+          "emotional_label": "reflective-anxious"
+        },
+        "embedding_ref": "vectors/conv_2025-10-28_001.vec",
+        "status": "indexed"
+      }
+    ]
+  },
+
+  "meta": {
+    "curator": "user:Boss",
+    "validator": "EVA",
+    "last_drift_check": "2025-10-28T02:00+07:00",
+    "notes": "เพิ่ม conversation_archives สำหรับบทสนทนาเต็ม และเชื่อมโยงกับ imprint node ที่เกี่ยวข้อง"
+  }
+}

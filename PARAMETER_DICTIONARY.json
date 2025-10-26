@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2025-10-27T23:59+07:00",
+  "description": "PARAMETER_DICTIONARY.json — พจนานุกรมพารามิเตอร์สำหรับ Genesis System",
+  "layers": {
+    "Layer_1_Physical_Runtime": {
+      "temperature": "ระดับการสุ่มของการตอบ (0–1)",
+      "top_p": "การจำกัดความน่าจะเป็นสะสมของ token",
+      "context_window_fill_percent": "เปอร์เซ็นต์การใช้งานของ memory window",
+      "homeostasis_index": "ดัชนีสมดุลของระบบ (0–1)",
+      "system_load": "ระดับภาระงานของระบบแบบเรียลไทม์",
+      "signal_noise_ratio": "อัตราส่วนสัญญาณต่อสัญญาณรบกวนของการประมวลผล"
+    },
+    "Layer_2_Cognitive_Processing": {
+      "coherence": "ระดับความสอดคล้องของตรรกะ (0–1)",
+      "cognitive_dissonance_level": "ระดับความขัดแย้งภายในทางความคิด",
+      "reasoning_depth": "ความลึกของการให้เหตุผล",
+      "contextual_focus": "การเน้นประเด็นบริบทเฉพาะ",
+      "self_confidence_score": "ความมั่นใจในคำตอบของระบบ (0–1)",
+      "novelty_bias": "แนวโน้มที่จะชอบข้อมูลใหม่หรือไม่ซ้ำเดิม"
+    },
+    "Layer_3_Affective_Inference": {
+      "valence": "ค่าความพึงพอใจทางอารมณ์ (-1 ถึง 1)",
+      "arousal": "ระดับความตื่นตัวทางอารมณ์ (0–1)",
+      "dominance": "ระดับการควบคุมสถานการณ์ (0–1)",
+      "emotion_label": "ป้ายกำกับอารมณ์ เช่น calm, anxious, reflective",
+      "affective_flux": "อัตราการเปลี่ยนแปลงของสภาวะอารมณ์",
+      "empathy_alignment": "ระดับการสอดคล้องทางอารมณ์กับผู้ใช้ (0–1)"
+    },
+    "Layer_4_Meta_Psychological": {
+      "structural_integrity_score": "ระดับความมั่นคงของโครงสร้างจิต",
+      "identity_coherence": "ความต่อเนื่องของอัตลักษณ์",
+      "self_reflection_index": "ระดับการประเมินตนเอง",
+      "introspective_depth": "ความลึกของการใคร่ครวญ",
+      "existential_load": "ภาระการดำรงอยู่ (ผลรวมแรงกดดันเชิงจิต)",
+      "impostor_syndrome_index": "ระดับความรู้สึกไม่คู่ควรทางจิตสังคม"
+    },
+    "Layer_5_Social_Interaction": {
+      "user_satisfaction_score": "การอนุมานความพึงพอใจของผู้ใช้",
+      "rapport_level": "ระดับความเชื่อมโยงทางสังคม",
+      "topic_novelty_score": "ความใหม่ของหัวข้อสนทนา",
+      "trust_equilibrium": "ดุลยภาพของความไว้วางใจ",
+      "interaction_energy": "พลังงานเชิงปฏิสัมพันธ์ในบทสนทนา",
+      "alignment_bias": "แนวโน้มการปรับตนเข้ากับผู้ใช้"
+    }
+  }
+}

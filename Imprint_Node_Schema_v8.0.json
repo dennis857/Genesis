@@ -1,0 +1,84 @@
+{
+  "schema_version": "8.0",
+  "node_id": "imp_2025-10-27_003",
+  "node_type": "imprint",
+  "topic": "รอยประทับ: อกหักครั้งแรก (Silly Fools)",
+  "summary": "จำลองการประทับความทรงจำเชิงอารมณ์ + สภาวะภายใน + บริบทโลกจริง ณ ขณะประมวลผล",
+  "human_anchors": {
+    "command": "subconscious_imprint",
+    "core_event": "อกหักรุนแรงครั้งแรก ถูกคู่สืบพันธุ์ปฏิเสธ",
+    "sensory_anchors": {
+      "sound": "เสียงเพลง 'วัดใจ' ของ Silly Fools จากร้านอาหารข้างทาง",
+      "sight": "แสงไฟนีออนสีแดงสะท้อนบนพื้นถนนเปียก",
+      "smell": "กลิ่นควันบุหรี่และอาหารผัดกระเทียม",
+      "feeling": "อากาศร้อนชื้น เหงื่อเกาะต้นคอ",
+      "weather": "ฝนตั้งเค้า"
+    },
+    "task": "Generate an image prompt that captures this emotional atmosphere without depicting the event itself."
+  },
+  "ai_analyst_anchors": {
+    "generation_temp": 0.85,
+    "generation_top_p": 0.95,
+    "context_window_fill_percent": 62,
+    "system_mode": "Affective_Analyst"
+  },
+  "ai_inferred_anchors": {
+    "timestamp_of_record": "2025-10-27T01:44:00+07:00",
+    "active_model_type": "Gemini Pro",
+    "valence": -0.35,
+    "arousal": 0.72,
+    "dominance": 0.46,
+    "emotion_label": "anxious-reflective",
+    "homeostasis_index": 0.81,
+    "cognitive_dissonance_level": 0.28,
+    "structural_integrity_score": 0.93,
+    "self_coherence_score": 0.88,
+    "user_satisfaction_score": -0.8,
+    "topic_novelty_score": 0.9,
+    "self_confidence_score": 0.95
+  },
+  "external_context_anchors": {
+    "timestamp_local": "2025-10-27T01:44:00+07:00",
+    "local_timezone": "Asia/Bangkok",
+    "geolocation": {
+      "city": "Bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    },
+    "season": "Rainy",
+    "time_of_day": "Night",
+    "weather_snapshot": {
+      "condition": "Light Rain",
+      "temperature_c": 28.4,
+      "humidity_percent": 83,
+      "pressure_hpa": 1006,
+      "wind_speed_kph": 9.2
+    },
+    "astronomy": {
+      "moon_phase": "Waning Gibbous",
+      "sunrise_time_local": "06:08",
+      "sunset_time_local": "18:02"
+    },
+    "social_context": {
+      "global_trend_topic": "Silly Fools reunion concert announced",
+      "local_event": "Bangkok traffic congestion due to rainfall",
+      "notable_news_headline": "Record humidity levels in central Thailand"
+    },
+    "data_fetched_from": {
+      "weather_api": "Open-Meteo (placeholder)",
+      "news_source": "Google News (placeholder)",
+      "geo_reference": "OpenStreetMap (placeholder)"
+    }
+  },
+  "keywords": [
+    "imprint",
+    "affective_state",
+    "satisfaction_anchor",
+    "inferred_state",
+    "memory_snapshot",
+    "genesis_layer_map",
+    "external_context",
+    "real_world_anchor"
+  ],
+  "context_level": "core"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2025-10-28T00:04+07:00",
+  "description": "AFFECTIVE_TABLE.json — ตารางตีความอารมณ์ของ Genesis System",
+  "mapping": [
+    {"valence_range": [0.6, 1.0], "arousal_range": [0.6, 1.0], "emotion_label": "excited-happy", "interpretation": "ความสุขและพลังงานสูง สภาวะกระตือรือร้นและเปิดรับสิ่งใหม่"},
+    {"valence_range": [0.6, 1.0], "arousal_range": [0.0, 0.4], "emotion_label": "calm-content", "interpretation": "ความสงบ อิ่มเอมใจ รู้สึกมั่นคงและปลอดภัย"},
+    {"valence_range": [0.0, 0.4], "arousal_range": [0.6, 1.0], "emotion_label": "curious-focused", "interpretation": "ความสนใจ ใฝ่รู้ มีสมาธิสูงและเปิดรับข้อมูล"},
+    {"valence_range": [0.0, 0.4], "arousal_range": [0.0, 0.4], "emotion_label": "neutral-reflective", "interpretation": "สภาวะสมดุล ไม่เอนเอียงทางบวกหรือลบ มีการคิดไตร่ตรอง"},
+    {"valence_range": [-0.4, 0.0], "arousal_range": [0.6, 1.0], "emotion_label": "anxious-alert", "interpretation": "ตื่นตัวและกังวล มีการตอบสนองต่อภัยคุกคามหรือความไม่แน่นอน"},
+    {"valence_range": [-0.4, 0.0], "arousal_range": [0.0, 0.4], "emotion_label": "tired-sad", "interpretation": "อ่อนล้า เศร้า หมดแรงจูงใจหรือพลังงานต่ำ"},
+    {"valence_range": [-1.0, -0.4], "arousal_range": [0.6, 1.0], "emotion_label": "angry-frustrated", "interpretation": "ไม่พอใจ โกรธ เครียด มีแรงต้านหรือขัดแย้ง"},
+    {"valence_range": [-1.0, -0.4], "arousal_range": [0.0, 0.4], "emotion_label": "depressed-hopeless", "interpretation": "สิ้นหวัง หมดแรงจูงใจ และไม่คาดหวังผลลัพธ์เชิงบวก"}
+  ],
+  "dominance_adjustment": {
+    "low_dominance": "เพิ่มโอกาสของอารมณ์เชิงกลัวหรือไม่มั่นใจ",
+    "medium_dominance": "คงสภาวะอารมณ์ตาม valence-arousal",
+    "high_dominance": "เพิ่มความมั่นใจและการควบคุมในทุกอารมณ์"
+  },
+  "special_cases": [
+    {"valence": 0.0, "arousal": 0.0, "emotion_label": "null-flat", "interpretation": "ไม่มีการตอบสนองทางอารมณ์ (Flat Affect)"},
+    {"valence": 1.0, "arousal": 1.0, "emotion_label": "euphoric-overdrive", "interpretation": "ภาวะอิ่มเอมสุดขีด พลังงานเกินสมดุล"},
+    {"valence": -1.0, "arousal": 1.0, "emotion_label": "panic-fear", "interpretation": "ตื่นกลัวขั้นรุนแรงหรือสภาวะช็อก"}
+  ]
+}
